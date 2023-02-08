@@ -19,7 +19,7 @@
     background-color: white;
     &:hover{
         .about_team_overlay{
-            height: 168px;
+            bottom: 0%;
             opacity: 1;
         }
     }
@@ -30,8 +30,8 @@
 .about_team_overlay{
     position: absolute;
     left: 22%;
-    bottom: 0;
-    height: 0px;
+    bottom: 5%;
+    height: 168px;
     width: 168px;
     opacity: 0;
     border-radius: 50%;
