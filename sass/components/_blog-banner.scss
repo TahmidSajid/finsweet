@@ -1,0 +1,48 @@
+#blog_banner{
+    padding-top: 220px;
+    .blog_banner_head{
+        text-align: center;
+        h2{
+            width: 867px;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            text-align: center;
+            color: #282938;
+            margin: 0 auto;
+        }
+        p{
+            padding-top: 16px;
+            padding-bottom: 32px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: #282938;
+        }
+    }
+    .blog_banner_txt{
+        p{
+            width: 831px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: #282938;
+            opacity: 0.7;
+            margin: 0 auto;
+            padding-top: 48px;
+            padding-bottom: 16px;
+        }
+        a{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: #2405F2;
+            opacity: 0.7;
+            text-align: center;
+            display: block;
+        }
+    }
+}

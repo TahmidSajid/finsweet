@@ -1,0 +1,45 @@
+#banner{
+    padding-top: 218px;
+    padding-bottom: 128px;
+    background-color: #1C1E53;
+}
+.banner_txt{
+    color: white;
+    h1{
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 74px;
+        padding-bottom: 35px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 43px;
+        color: #BBBBCB;
+        width: 506px;
+    }
+}
+.banner_bttn{
+    a{
+        font-family: 'Manrope' !important;
+        height: 64px;
+        width: 230px;
+        text-align: center;
+        line-height: 60px;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+        background: #FCD980;
+        border-radius: 41px;
+        color: black;
+        &:last-child{
+            background-color: transparent;
+            color: white;
+        }
+    }
+    i{
+        padding-left: 8px;
+        font-size: 12px;
+    }
+}

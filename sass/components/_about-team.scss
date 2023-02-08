@@ -1,0 +1,71 @@
+#about_team{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.about_team_head{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    padding-bottom: 48px;
+}
+.about_team_tbl{
+    width: 296px;
+    height: 344px;
+    margin: 0 auto;
+    padding-top: 48px;
+    background-color: white;
+    &:hover{
+        .about_team_overlay{
+            height: 168px;
+            opacity: 1;
+        }
+    }
+}
+.about_team_img{
+    position: relative;
+}
+.about_team_overlay{
+    position: absolute;
+    left: 22%;
+    bottom: 0;
+    height: 0px;
+    width: 168px;
+    opacity: 0;
+    border-radius: 50%;
+    background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    a{   
+        padding-top: 127px;
+        margin: 0px 5.6px;
+        color: white;
+    }
+}
+.about_team_txt{
+    padding-top: 30px;
+    h4{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #1D2130;
+        padding-bottom: 2px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #1D2130;
+        opacity: 0.7;
+    }
+}

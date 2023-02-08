@@ -1,0 +1,47 @@
+.feature_banner{
+    padding-top: 220px;
+    padding-bottom: 128px;
+    background-color: #1C1E53;
+}
+.banner_txt{
+    color: white;
+    h1{
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 74px;
+        color: #FFFFFF;
+        width: 417px;
+        padding-bottom: 32px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        width: 505px;
+    }
+}
+.feature_banner_bttn{
+    a{
+        font-family: 'Manrope';
+        font-style: normal;
+        width: 200px;
+        height: 64px;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 41px;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+        background: #FCD980;
+        border-radius: 41px;
+    }
+    i{
+        padding-left: 8px;
+        font-size: 12px;
+    }
+}
+.feature_benefits_last_sec{
+    padding-top: 96px;
+}

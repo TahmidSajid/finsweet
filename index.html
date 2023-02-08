@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class HW 30</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    nav
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<nav class="navbar navbar-expand-lg w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav align-items-center">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="about-us.html">About us</a>
+          <a class="nav-link" href="features.html">Features</a>
+          <a class="nav-link" href="pricing.html">Pricing</a>
+          <a class="nav-link" href="features.html">FAQ</a>
+          <a class="nav-link" href="blog-page.html">Blog</a>
+          <a class="nav-link" href="contact-us-form.html">
+            <button type="button" class="btn">Contuct Us</button>
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    banner
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 banner_txt">
+                <h1>
+                    Building stellar websites for early startups
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                </p>
+                <div class="banner_bttn">
+                    <a href="#">View our work</a>
+                    <a href="#">View pricing <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-7 banner_img text-end">
+                <img src="images/banner_img.png" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    about-us
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="about_us">
+    <div class="we_work">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 work_head">
+                    <h4>
+                        How we work
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <a href="#">Get in touch with us<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="col-lg-7 work_sec">
+                    <div class="row">
+                        <div class="col-lg-6 work_card">
+                            <img src="images/pointer_1.png" alt="logo">
+                            <h4>Strategy</h4>
+                            <p>
+                                Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </p>
+                        </div> 
+                        <div class="col-lg-6 work_card">
+                            <img src="images/pointer_2.png" alt="logo">
+                            <h4>Wireframing</h4>
+                            <p>
+                                Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </p>
+                        </div> 
+                        <div class="col-lg-6 work_card">
+                            <img src="images/pointer_3.png" alt="logo">
+                            <h4>Design</h4>
+                            <p>
+                                Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </p>
+                        </div> 
+                        <div class="col-lg-6 work_card">
+                            <img src="images/pointer_4.png" alt="logo">
+                            <h4>Development</h4>
+                            <p>
+                                Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our_pro">
+        <div class="container">
+            <div class="pro_head d-flex justify-content-between align-items-center">
+                <h4>View our projects</h4>
+                <a href="#"> <a href="#">View more <i class="fa-solid fa-arrow-right-long"></i></a></a>
+            </div>
+            <div class="row pro_sec">
+                <div class="col-lg-8">
+                    <div class="pro_1">
+                        <img src="images/About_us_1.jpg" alt="img">
+                        <div class="pro_1_lay">
+                            <h4>Workhub office Webflow Webflow Design</h4>
+                            <p>
+                                Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam 
+                            </p>
+                            <a href="#">View projects <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 por_2">
+                    <div class="small_pro">
+                        <img src="images/About_us_2.png" alt="img">
+                        <div class="small_overlay">
+                            <h4>Unisaas Website Design</h4>
+                            <a href="#">View projects <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="small_pro">
+                        <img src="images/About_us_3.jpg" alt="img">
+                        <div class="small_overlay">
+                            <h4>Unisaas Website Design</h4>
+                            <a href="#">View projects <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    features
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="features">
+    <div class="container">
+        <div class="features_head text-center">
+            <p>features</p>
+            <h4>
+                Design that solves problems, one product at a time
+            </h4>
+        </div>
+        <div class="row features_sec justify-content-between">
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-users"></i>
+                    <h5>Uses Client First</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h5>Two Free Revision Round</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h5>Template Customization</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-comments"></i>
+                    <h5>24/7 Support</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <h5>Quick Delivery</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="feat_tbl">
+                    <i class="fa-solid fa-file"></i>
+                    <h5>Hands-on approach</h5>
+                    <p>
+                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed faucib turpis eu gravida mi. Pellentesque et velit 
+                        aliquam sed mi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    testmonial
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="testimonial">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-3">
+                <div class="testi_head">
+                    <h4>What our clients say about us</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="testi_slider">
+                    <div class="testi_tbl">
+                        <h4>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h4>
+                        <div class="testi_pro d-flex justify-content-between">
+                            <div class="col-lg-3">
+                                <img src="images/testi_pro_1.png" alt="img">
+                            </div>
+                            <div class="col-lg-7">
+                                <h5>Jenny Wilson</h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_tbl">
+                        <h4>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h4>
+                        <div class="testi_pro d-flex justify-content-between">
+                            <div class="col-lg-3">
+                                <img src="images/testi_pro_1.png" alt="img">
+                            </div>
+                            <div class="col-lg-7">
+                                <h5>Jenny Wilson</h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_tbl">
+                        <h4>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h4>
+                        <div class="testi_pro d-flex justify-content-between">
+                            <div class="col-lg-3">
+                                <img src="images/testi_pro_1.png" alt="img">
+                            </div>
+                            <div class="col-lg-7">
+                                <h5>Jenny Wilson</h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi_btn">
+                    <i class="fa-solid fa-angle-left testi_left"></i>
+                    <i class="fa-solid fa-angle-right testi_right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    asked-qus
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="asked_qus">
+    <div class="container">
+        <div class="row justify-content-between qus_sec">
+            <div class="col-lg-3 qus_head">
+                <h4>Frequently asked questions</h4>
+                <a href="#">
+                    Contact us for more info
+                </a>
+            </div>
+            <div class="col-lg-8">
+                <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h6><span class="acc_col">01</span>How much time does it take?</h6>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h6><span class="acc_col">02</span>What is your class naming convention?</h6>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                aliqua.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h6><span class="acc_col">03</span>How do you communicate?</h6>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                aliqua.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <h6><span class="acc_col">04</span>I have a bigger project. Can you handle it?</h6>
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                  aliqua.
+                              </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <h6><span class="acc_col">05</span>What is your class naming convention?</h6>
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                  aliqua.
+                              </p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="qus_form d-flex">
+            <div class="form_head">
+                <h4>
+                    Building stellar websites for early startups
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua ut enim.
+                </p>
+            </div>
+            <div class="form_main">
+                <div class="form_sec">
+                    <h4>Send inquiry</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt 
+                        ut labore.
+                    </p>
+                    <form class="form_1" action="#">
+                        <input type="text" placeholder="Your Name" id="name">
+                        <input type="email" placeholder="Email" id="email">
+                        <input type="text" placeholder="Paste your Figma design URL" id="design">
+                        <div class="form_bttn">
+                            <a href="#">Send an Inquiry</a>
+                        </div>
+                    </form>
+                    <a href="#" class="get_touch"><h6>get in touch with us</h6><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    blog
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="blog">
+    <div class="container">
+        <div class="blog_head">
+            <h4>Our blog</h4>
+        </div>
+        <div class="row blog_sec">
+            <div class="col-lg-4 blog_tbl">
+                <div class="blog_img">
+                    <img src="images/blog_1.jpg" class="w-100" alt="img">
+                </div>
+                <div class="blog_txt">
+                    <p class="date">19 Jan 2022</p>
+                    <h5>
+                        How one Webflow user grew his single 
+                        person consultancy from $0-100K in 14 months
+                    </h5>
+                    <p>
+                        See how pivoting to Webflow changed one person’s 
+                        sales strategy and allowed him to attract
+                    </p>
+                    <a href="#">read more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 blog_tbl">
+                <div class="blog_img">
+                    <img src="images/blog_2.jpg" class="w-100" alt="img">
+                </div>
+                <div class="blog_txt">
+                    <p class="date">19 Jan 2022</p>
+                    <h5>
+                        How one Webflow user grew his single 
+                        person consultancy from $0-100K in 14 months
+                    </h5>
+                    <p>
+                        See how pivoting to Webflow changed one person’s 
+                        sales strategy and allowed him to attract
+                    </p>
+                    <a href="#">read more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 blog_tbl">
+                <div class="blog_img">
+                    <img src="images/blog_3.jpg" class="w-100" alt="img">
+                </div>
+                <div class="blog_txt">
+                    <p class="date">19 Jan 2022</p>
+                    <h5>
+                        How one Webflow user grew his single 
+                        person consultancy from $0-100K in 14 months
+                    </h5>
+                    <p>
+                        See how pivoting to Webflow changed one person’s 
+                        sales strategy and allowed him to attract
+                    </p>
+                    <a href="#">read more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    footer
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="footer">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 footer_1st">
+                <img src="images/logo.png" alt="logo">
+                <p class="footer_para">
+                    We are always open to discuss your project 
+                    and improve your online presence.
+                </p>
+                <div class="footer_tbl d-flex">
+                    <div class="footer_tbl_inner">
+                        <h6>Email me at</h6>
+                        <p>contact@website.com</p>
+                    </div>
+                    <div class="footer_tbl_inner">
+                        <h6>Call me</h6>
+                        <p>0927 6277 28525</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 footer_2nd">
+                <h3>
+                    Lets Talk!
+                </h3>
+                <p>
+                    We are always open to discuss your project, 
+                    improve your online presence and help with your 
+                    UX/UI design challenges.
+                </p>
+                <ul class="footer_links">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    copy & nav
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<section id="copy">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h6>Copyright 2022, Finsweet.com</h6>
+        <ul class="footer_nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">blog</a></li>
+        </ul>
+    </div>
+</section>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

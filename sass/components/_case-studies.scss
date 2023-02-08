@@ -1,0 +1,73 @@
+#case_studies{
+    padding-top: 220px;
+}
+.case_studies_head{
+    p{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #282938;
+        opacity: 0.8;
+        &:last-child{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            color: #282938;
+            opacity: 0.7;
+            width: 817px;
+            padding-bottom: 48px;
+        }
+    }
+    h2{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        width: 646px;
+        color: #282938;
+        padding-top: 12px;
+        padding-bottom: 16px;
+    }
+}
+.case_banner{
+    img{
+        width: 1063px;
+        height: 641px;
+    }
+    hr{
+        width: 1063px;
+        opacity: 0.3;
+    }
+}
+.case_banner_details{
+    width: 1063px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    .col-lg{
+        &:last-child{
+            .case_banner_txt{
+                h5{
+                    width: 406px;
+                }
+            }
+        }
+    }
+}
+.case_banner_txt{
+    p{
+        // font-family: 'Poppins';
+        // font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #282938;
+        opacity: 0.8;
+    }
+    h5{
+        // font-family: 'Poppins';
+        // font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #282938;
+    }
+}
