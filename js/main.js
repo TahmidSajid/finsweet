@@ -6,13 +6,22 @@ $('.testi_slider').slick({
     nextArrow: '.testi_right',
     prevArrow: '.testi_left',
     responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        }
+      },
         {
           breakpoint: 576.99,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false,
           }
         }
       ]
