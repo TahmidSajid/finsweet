@@ -5,6 +5,17 @@ $('.testi_slider').slick({
     Arrow: true,
     nextArrow: '.testi_right',
     prevArrow: '.testi_left',
+    responsive: [
+        {
+          breakpoint: 576.99,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
 });
 
 
