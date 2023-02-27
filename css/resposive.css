@@ -297,6 +297,246 @@
     font-size: 15px;
     margin: 0 auto;
   }
+  #about_description {
+    padding-bottom: 50px;
+  }
+  .design_des {
+    padding-top: 90px;
+  }
+  .design_des p {
+    font-size: 14px;
+    line-height: 19px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .design_des p:last-child {
+    font-size: 9px;
+    line-height: 15px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .design_des h4 {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: 269px;
+    margin: 0 auto;
+  }
+  .about_img_1 {
+    text-align: center !important;
+  }
+  .about_img_1 img {
+    width: 280px;
+    height: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .who_we_sec {
+    width: 280px;
+    margin: 0 auto;
+    background: none;
+  }
+  .who_we_sec .who_we_1st {
+    padding: 0px;
+  }
+  .who_we_sec .who_we_1st p {
+    font-size: 14px;
+    line-height: 19px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .who_we_sec .who_we_1st p:last-child {
+    font-size: 9px;
+    line-height: 15px;
+    width: 267px;
+    margin: 0 auto;
+  }
+  .who_we_sec .who_we_1st h5 {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: 138px;
+    margin: 0 auto;
+  }
+  .who_we_sec .who_we_2nd {
+    padding: 0px;
+  }
+  .who_we_sec .who_we_2nd p {
+    font-size: 9px;
+    line-height: 15px;
+    width: 267px;
+    margin: 0 auto;
+  }
+  .who_we_sec .who_we_2nd h5 {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .about_img_2 {
+    width: 280px;
+    height: auto;
+  }
+  .we_follow_sec {
+    padding-bottom: 50px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .we_follow_head {
+    font-size: 18px;
+    line-height: 11px;
+    text-align: center;
+    padding-bottom: 23px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .we_follow_tbl h5 {
+    padding-top: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #282938;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .we_follow_tbl p {
+    font-size: 6px;
+    line-height: 16px;
+    width: 166px;
+    margin: 0 auto;
+  }
+  .we_follow_box {
+    padding: 7px 0px;
+  }
+  .mission_txt p {
+    font-size: 14px;
+    line-height: 19px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .mission_txt p:last-child {
+    font-size: 9px;
+    line-height: 15px;
+    width: 267px;
+  }
+  .mission_txt h4 {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .about_img_3 {
+    text-align: center !important;
+  }
+  .about_img_3 img {
+    width: 240px;
+    height: auto;
+  }
+  .about_img_4 {
+    text-align: center !important;
+  }
+  .about_img_4 img {
+    width: 240px;
+    height: auto;
+  }
+  .vision_txt p {
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .vision_txt p:last-child {
+    font-size: 9px;
+    line-height: 15px;
+    width: 267px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .vision_txt h4 {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #benefits {
+    padding-bottom: 8px;
+  }
+  #benefits .benefits_head {
+    font-size: 18px;
+    line-height: 11px;
+    text-align: center;
+    padding-bottom: 23px;
+    width: 300px;
+  }
+  #benefits .benefits_number_tbl h3 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #benefits .benefits_number_tbl p {
+    font-size: 12px;
+    line-height: 11px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #benefits .benefit_logo img {
+    height: auto;
+    width: 62px;
+  }
+  #benefits .benefits_last_sec {
+    padding-top: 7px;
+  }
+  #about_team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #about_team .about_team_head {
+    font-size: 19px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #about_team .about_team_tbl {
+    width: 280px;
+    height: 344px;
+  }
+  #about_team .about_team_overlay {
+    left: 20%;
+  }
+  #about_team .about_team_txt {
+    padding-top: 0;
+  }
+  #about_team .about_team_txt h4 {
+    font-size: 14px;
+  }
+  #about_team .about_team_txt p {
+    font-size: 13px;
+    line-height: 2px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .navbar {

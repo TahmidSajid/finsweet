@@ -786,7 +786,7 @@ body {
   width: 620px;
 }
 
-.about_img_1 {
+.about_img_1 img {
   width: 547px;
   height: 336px;
   margin-top: 220px;
@@ -962,13 +962,13 @@ body {
   width: 454px;
 }
 
-.about_img_3 {
+.about_img_3 img {
   width: 515px;
   height: 336px;
   text-align: end;
 }
 
-.about_img_4 {
+.about_img_4 img {
   width: 514px;
   height: 334px;
 }
@@ -1041,7 +1041,7 @@ body {
   opacity: 0.7;
 }
 
-.benefit_logo {
+.benefit_logo img {
   opacity: 0.8;
 }
 
